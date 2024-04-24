@@ -38,6 +38,7 @@ nav a{
 
 figure{
     margin:0;
+    background-color: lightblue;
 }
 
 figure img{
@@ -57,19 +58,12 @@ div {
     display: flex;
 }
 
-img {
-    border:200px green;
-    width: 50%;
-}
 
 p{
     width: 50%;
 }
 
-.resized-image {
-    width: 100px; 
-    height: auto;
-}
+
 
 /*.container {
     position: relative;
