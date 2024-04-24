@@ -7,103 +7,105 @@
     <title>Home</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
 </head>
-
-<main>
-    <header>
-        <center>
-
-            <img src="Imagenes/logo.png" alt="No encontrado" />
+<body>
+    <main>
+        <header>
+            <center>
+    
+                <img src="Imagenes/logo.png" alt="No encontrado" />
+            </center>
+            
+        </header>
+    
+        
+    
+        <nav>
+            
+            <ul>
+                <center>
+                    <li><a href="Index.html">Inicio</a> </li>
+                    <li><a href="Productos.html">Categorias</a> </li>
+                    <li><a href="Contactos.html">Contactanos</a> </li>
+                </center>
+    
+    
+            </ul>
+            
+        </nav>
+    
+        <center border="1">
+            <h1>Contactar a la Empresa</h1>
+            
+            
         </center>
         
-    </header>
-
+        <div>
+            <div style="text-align: left;padding-left: 20px;">
+                <img src="Imagenes/Yo.jpg" alt="No encontrado" height="300" width="300" />
+            </div>
+                
     
-
-    <nav>
-        
-        <ul>
-            <center>
-                <li><a href="Index.html">Inicio</a> </li>
-                <li><a href="Productos.html">Categorias</a> </li>
-                <li><a href="Contactos.html">Contactanos</a> </li>
-            </center>
-
-
-        </ul>
-        
-    </nav>
-
-    <center border="1">
-        <h1>Contactar a la Empresa</h1>
-        
-        
-    </center>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p style="text-align:right;padding-left: 540px;"> <label for="nombre">Nombre:</label><br></p>
+                <p style="text-align:right;padding-left: 670px;"> <input type="text" id="nombre" name="nombre" required><br><br></p>
+                
+                <p style="text-align:right;padding-left: 540px;"> <label for="apellido">Apellido:</label><br>
+                    <p style="text-align:right;padding-left: 670px;"> <input type="text" id="apellido" name="apellido" required><br><br>
+                
+                <label for="sexo">Sexo:</label><br>
+                <select id="sexo" name="sexo" required>
+                    <option value="">Selecciona</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+                
+                <br/>
+                    <textarea placeholder="Comentario" required  class="controles" ></textarea>
+                
+                <input type="submit" value="Enviar">
     
-    <div>
-        <div style="text-align: left;padding-left: 20px;">
-            <img src="Imagenes/Yo.jpg" alt="No encontrado" height="300" width="300" />
         </div>
-            
-
-        <form action="#" method="post" enctype="multipart/form-data">
-            <p style="text-align:right;padding-left: 540px;"> <label for="nombre">Nombre:</label><br></p>
-            <p style="text-align:right;padding-left: 670px;"> <input type="text" id="nombre" name="nombre" required><br><br></p>
-            
-            <p style="text-align:right;padding-left: 540px;"> <label for="apellido">Apellido:</label><br>
-                <p style="text-align:right;padding-left: 670px;"> <input type="text" id="apellido" name="apellido" required><br><br>
-            
-            <label for="sexo">Sexo:</label><br>
-            <select id="sexo" name="sexo" required>
-                <option value="">Selecciona</option>
-                <option value="masculino">Masculino</option>
-                <option value="femenino">Femenino</option>
-                <option value="otro">Otro</option>
-            </select><br><br>
-            
-            <br/>
-                <textarea placeholder="Comentario" required  class="controles" ></textarea>
-            
-            <input type="submit" value="Enviar">
-
-    </div>
-   
-    <big>
-        <b><p style="text-align: left; padding-left: 140px;">
-            
-            Creador
-            
-        </p></b>
-        <b><p style="text-align: left; padding-left: 140px;">
-            
-            Manager
-            
-        </p></b> 
-
-        <b><p style="text-align: left; padding-left: 100px;">
-            
-            Empleado del mes
-            
-        </p></b> 
-
-        <b><p style="text-align: left; padding-left: 90px;">
-            
-            Empleado de la decada
-            
-        </p></b> 
-
-        <b><p style="text-align: left; padding-left: 160px;">
-            
-            Yo
-            
-        </p></b> 
-    </big>   
-        
+       
+        <big>
+            <b><p style="text-align: left; padding-left: 140px;">
+                
+                Creador
+                
+            </p></b>
+            <b><p style="text-align: left; padding-left: 140px;">
+                
+                Manager
+                
+            </p></b> 
     
+            <b><p style="text-align: left; padding-left: 100px;">
+                
+                Empleado del mes
+                
+            </p></b> 
+    
+            <b><p style="text-align: left; padding-left: 90px;">
+                
+                Empleado de la decada
+                
+            </p></b> 
+    
+            <b><p style="text-align: left; padding-left: 160px;">
+                
+                Yo
+                
+            </p></b> 
+        </big>   
+            
         
-
-
-</main>
-
-<body>
+            
+    
+    
+    </main>
+    
+    <footer>
+        <strong>ASIGNATURA : </strong> PROGRAMACION FRONT END
+    </footer>    
 
 </body>
