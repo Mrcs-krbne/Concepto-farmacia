@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Author" content="MLopez"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    
+
+    <header>
+        <center>
+
+            <img src="Imagenes/logo.png" alt="No encontrado" />
+        </center>
+        
+    </header>
+
+    
+
+    <nav>
+        
+        <ul>
+            <center>
+                <li><a href="Index.html">Inicio</a> </li>
+                <li><a href="Productos.html">Categorias</a> </li>
+                <li><a href="Contactos.html">Contactanos</a> </li>
+            </center>
+
+
+        </ul>
+        
+    </nav>
+
+    <center border="1">
+        <h1>Contactar a la Empresa</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            
+            <label for="sexo">Sexo:</label><br>
+            <select id="sexo" name="sexo" required>
+                <option value="">Selecciona</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br><br>
+            
+            <br/>
+                <textarea placeholder="Comentario" required  class="controles" ></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
+
+
+    </center>
+  
+
+</body>

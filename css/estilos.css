@@ -1,0 +1,53 @@
+html, body, h1, h2, ul, li, a{
+    margin:0;
+    padding:0;
+    font-family: Calibri, Arial;
+}
+
+
+header{
+    background-color: green;
+    padding-top:7px;
+    padding-left: 50px;
+}
+
+
+nav ul li{
+    display: inline;
+}
+
+
+
+nav{
+    background-color: rgb(19, 104, 64);
+    padding-left:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:2px solid #797878;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+figure{
+    margin:0;
+}
+
+figure img{
+    width: 600px;
+    height: 500px;
+    border:2px lightblue;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+    color:darkgray;
+}
