@@ -86,7 +86,7 @@ p{
 
 
 footer{
-    background-color: #23384e;
+    background-color: rgb(19, 104, 64);
     color:#FFFFFF;
     text-align: center;
     font-size: 20px;
@@ -102,7 +102,9 @@ footer{
     width: 950px;
     text-align: center;
     margin-left: 70px;
+    resize:none;
 }
+
 
 
 
